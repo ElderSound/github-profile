@@ -14,7 +14,7 @@ const RepoCard = ({ repo, formatDate }) => (
 
     
 
-    <div className="flex items-center justify-between text-xs text-gray-400">
+    <div className="flex items-center justify-left gap-4 text-xs text-gray-400">
       {/* LICENCIA “MIT” */}
     {/* {repo.license?.spdx_id === 'MIT' && ( */}
     {/* TODAS LAS LICENCIAS */}
